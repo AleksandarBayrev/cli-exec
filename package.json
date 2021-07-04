@@ -6,7 +6,8 @@
   "scripts": {
     "start": "npm run build && node ./build/index.js",
     "build": "tsc --build tsconfig.json",
-    "test": "jest"
+    "test": "jest",
+    "clean-build": "rm -rfv ./build"
   },
   "author": "Aleksandar Bayrev",
   "license": "GPL-3.0",
