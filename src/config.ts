@@ -1,4 +1,4 @@
-import { IConfig } from "./types";
+import { IConfig } from './types'
 
 export const config: IConfig = {
     commands: [
